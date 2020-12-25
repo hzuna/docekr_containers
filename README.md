@@ -1,6 +1,6 @@
 # docekr_containers
 
-## (java version "1.8.0_261") with (tomcat)
+## (java version "1.8.0_261") with (tomcat)/platform: centos:7
 
 ### 使用: 
 #### 1.docker pull hzunadocker/java-env:latest

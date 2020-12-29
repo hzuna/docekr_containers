@@ -12,6 +12,7 @@
 > 打开浏览器访问主机ip:6666</br>
 > java -version</br>
 
+---
 
 ### Nginx + MariaDB + PHP7.4 /platform: Alpine
 #### 使用:

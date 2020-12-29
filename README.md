@@ -14,15 +14,12 @@
 
 ----------------------------------------------------------------------------------------------------------
 
-## Apache2 + Mysql + PHP7.4 + PHPMyadmin/platform: Ubuntu
+## Nginx + MariaDB + PHP7.4 /platform: Alpine
 ### 使用:
-#### 1.docker pull hzunadocker/webservice:latest
-#### 2.docker run -p 8080:80 -it hzunadocker/webservice /bin/bash
-#### 2.service mysql start
-#### 3.service apache2 start
+>>1.docker pull hzunadocker/alpine_with_webservice
+>>2.docker run -p 8080:80 -it hzunadocker/alpine_with_webservice /bin/sh
+>>2.rc-service mysql start
+>>3./usr/sbin/nginx
 
 ### 验证:
-#### 打开浏览器访问主机ip:8080
-
-### 说明:
-#### web目录在 /var/www/html
+>>打开浏览器访问主机ip:8080

@@ -14,11 +14,11 @@
 
 ---
 
-### Nginx + MariaDB + PHP7.4 /platform: Alpine
+### Nginx + MariaDB + PHP7.3 /platform: Alpine
 #### 使用:
 >1.docker pull hzunadocker/alpine_with_webservice</br>
 >2.docker run -p 8080:80 -it hzunadocker/alpine_with_webservice /bin/sh</br>
->2.rc-service mysql start</br>
+>2.rc-service mariadb start</br>
 >3./usr/sbin/nginx</br>
 
 #### 验证:
